@@ -1,8 +1,8 @@
-# Linux Commands:
+# Useful Linux Commands:
 
 ## grep:
 - Stands for: **Global Regular Expression Print**.
-- It's used to search for a specific string in a specific file.
+- It's used to search for a specific string in a specific file (**return the lines that contain that word**).
 
 ### 1. Basic example:
 ```shell
