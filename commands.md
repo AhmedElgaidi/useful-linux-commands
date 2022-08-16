@@ -5,7 +5,7 @@
 - It's used to search for a specific string in a specific file.
 
 ### Basic example:
-```console
+```sh
     // This searchs for "word" in the file "file.txt"
     grep word file.txt
 ```
