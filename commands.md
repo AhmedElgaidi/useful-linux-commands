@@ -6,6 +6,7 @@
 
 ### Basic example:
 ```
-// This searchs for "word" in the file "file.txt"
-grep word file.txt
+    // This searchs for "word" in the file "file.txt"
+    
+    grep word file.txt
 ```
