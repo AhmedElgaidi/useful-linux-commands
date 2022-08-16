@@ -9,3 +9,9 @@
     // This searchs for "word" in the file "file.txt"
     grep word file.txt
 ```
+
+### Searh for a word in multiple files:
+```shell
+    // This searchs for "word" in files "file1.txt" "file2.txt"
+    grep word "file1.txt file2.txt"
+```
