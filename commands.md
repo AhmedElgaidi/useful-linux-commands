@@ -5,6 +5,6 @@
 - It's used to search for a specific string in a specific file.
 
 ### Basic example:
-```bash
+```console
     grep word file.txt
 ```
