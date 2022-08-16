@@ -10,8 +10,15 @@
     grep word file.txt
 ```
 
-### 2. Searh for a word in multiple files:
+### 2. Search for a word in multiple files:
 ```shell
     // This searchs for "word" in files "file1.txt" "file2.txt"
-    grep word "file1.txt file2.txt"
+    grep word file1.txt file2.txt
+```
+
+### 3. Search for a word in the entire directory:
+```shell
+    // This searchs for "word" in all the files in the directory
+    grep word *
+
 ```
