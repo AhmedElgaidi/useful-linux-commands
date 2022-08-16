@@ -6,6 +6,5 @@
 
 ### Basic example:
 ```sh
-    // This searchs for "word" in the file "file.txt"
     grep word file.txt
 ```
