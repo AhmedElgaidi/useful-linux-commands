@@ -8,6 +8,7 @@
 ```shell
     // This searchs for any line that have word characters in the file "file.txt"
     grep word file.txt
+    // such as words, wordlist etc.... not "word"!!
 ```
 
 ### 2. Search for a word in multiple files:
@@ -26,6 +27,7 @@
 ### 4. Search for a specific word only
 
 ```shell
-    // This searchs for a "word"
+    // This searchs for a "word".
     grep -w word file1.txt 
+    // Only returns lines with "word" word.
 ```
