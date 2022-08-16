@@ -31,3 +31,40 @@
     grep -w word file1.txt 
     // Only returns lines with "word" word.
 ```
+
+### 5. To ignore case in search:
+
+```shell
+    // Search for any line that contains word characters (small or capital).
+    grep -i word *
+    // returns: WoRD, WORD, etc...
+```
+
+### 6. Search in sub-directorires also:
+
+```shell
+    // search for the "word" word in current directory files and it's sub-directorires files (**r means recrusive**).
+    grep -wr word *
+```
+
+### 7. Inverse/ Negate the command:
+```shell
+    // search for all lines that don't contain those characters "word"
+    grep -v word *
+```
+
+### 8. Search for exact line content:
+```shell
+    grep -x "hello my friend"
+    // only returns lines that are exactly "hello my friend"
+```
+
+### 9. List names of files (Don't return lines):
+```shell
+    grep -l word *
+```
+
+### 10. Count the lines in the files  that contain the given regular expression:
+```shell
+    grep -c word *
+```
