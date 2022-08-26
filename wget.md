@@ -44,16 +44,15 @@
 ### 7. Take a copy of entire website:
 ```shell
     // To download or mirror or copy an entire website for offline viewing, you can use use the following command that will make a local copy of the website along with all the assets (JavaScript, CSS, Images).
-    $ wget --recursive --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains www.example.com --no-parent www.example.com
+    $ wget --recursive --page-requisites --adjust-extension --span-hosts --convert-links --domains www.example.com --no-parent www.example.com
 ```
 
 #### Flags explanation:
-- --recursive -> Download the whole site.
-- --page-requisites \ # Get all assets/elements (CSS/JS/images).
-- --adjust-extension \ # Save files with .html on the end.
-- --span-hosts \ # Include necessary assets from offsite as well.
-- --convert-links \ # Update links to still work in the static version.
-- --restrict-file-names=windows \ # Modify filenames to work in Windows as well.
-- --domains yoursite.com \ # Do not follow links outside this domain.
-- --no-parent \ # Don't follow links outside the directory you pass in.
-- www.example.com/whatever/path # The URL to download
+- --recursive => Download the whole site.
+- --page-requisites => Get all assets/elements (CSS/JS/images).
+- --adjust-extension => Save files with .html on the end.
+- --span-hosts => Include necessary assets from offsite as well.
+- --convert-links => Update links to still work in the static version.
+- --domains www.example.com => Do not follow links outside this domain.
+- --no-parent => Don't follow links outside the directory you pass in.
+- www.example.com/whatever/path => The URL to download
