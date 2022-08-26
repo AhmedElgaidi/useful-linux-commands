@@ -30,5 +30,7 @@
 
 ### 5. Follow a pattern in downloaing:
 ```shell
-    // Let's say that you have a link **"https://www.example.com/products?productId=1"**
+    // Let's say that you have a link 'https://www.example.com/products?productId=1' and you want to download (take copy) of all the products within a range
+    // The following line should make a copy of the 25 products in the website in the current directory
+    $ wget 'https://www.example.com/products?productId={1..25}
 ```
