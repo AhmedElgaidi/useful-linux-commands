@@ -41,12 +41,12 @@
     $ wget -c <www.example.com/bla.iso>
 ```
 
-#### 7. Take a copy of entire website:
+### 7. Take a copy of entire website:
 ```shell
     // To download or mirror or copy an entire website for offline viewing, you can use use the following command that will make a local copy of the website along with all the assets (JavaScript, CSS, Images).
     $ wget --recursive --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains www.example.com --no-parent www.example.com
 
-    // Flags explanation:
+    #### Flags explanation:
     - --recursive \ # Download the whole site.
     - --page-requisites \ # Get all assets/elements (CSS/JS/images).
     - --adjust-extension \ # Save files with .html on the end.
