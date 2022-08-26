@@ -16,14 +16,14 @@
 
 ### 3. Download Multiple files:
 ```shell
-    // Here we are downloading as much number of files/folder we want in one shot
-    // It doesn't matter if the links have different protocols (http, https, ftp, ftps)
+    // Here we are downloading as much number of files/folder we want in one shot.
+    // It doesn't matter if the links have different protocols (http, https, ftp, ftps).
     $ wget <link1> <link2> <link3>
 ```
 
 ### 4. Download mutiple files from a file containg the target links:
 ```shell
-    // The file.txt contains multple links, i want to download
-    // It download the target links in the current directory
+    // The file.txt contains multple links, i want to download.
+    // It download the target links in the current directory.
     $ wget -i file.txt
 ```
