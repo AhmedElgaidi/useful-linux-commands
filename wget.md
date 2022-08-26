@@ -15,10 +15,9 @@
 ```
 
 ### 3. Download Multiple files:
-```shell
+```
     // Here we are downloading as much number of files/folder we want in one shot.
     // It doesn't matter if the links have different protocols (http, https, ftp, ftps).
-    
     $ wget <link1> <link2> <link3>
 ```
 
