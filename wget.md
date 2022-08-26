@@ -21,8 +21,6 @@
     $ wget <link1> <link2> <link3>
 ```
 
-`
-
 ### 4. Download mutiple files from a file containg the target links:
 ```shell
     // The file.txt contains multple links, i want to download
