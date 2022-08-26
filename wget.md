@@ -12,7 +12,7 @@
 ```shell
     // the flag is uppercase!!
     $ wget -O new_name <link>
-``
+```
 
 ### 3. Download Multiple files:
 ```shell
