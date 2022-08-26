@@ -48,7 +48,7 @@
 ```
 
 #### Flags explanation:
-- --recursive \ # Download the whole site.
+- --recursive -> Download the whole site.
 - --page-requisites \ # Get all assets/elements (CSS/JS/images).
 - --adjust-extension \ # Save files with .html on the end.
 - --span-hosts \ # Include necessary assets from offsite as well.
