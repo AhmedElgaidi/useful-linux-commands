@@ -34,3 +34,26 @@
     // The following line should make a copy of the 25 products in the website in the current directory
     $ wget 'https://www.example.com/products?productId={1..25}
 ```
+
+### 6. Resume downloading:
+```shell
+    // It the file is big and stopped for any reason, you can resume the downloading again and don't start from scratch
+    $ wget -c <www.example.com/bla.iso>
+```
+
+#### 7. Take a copy of entire website:
+```shell
+    // To download or mirror or copy an entire website for offline viewing, you can use use the following command that will make a local copy of the website along with all the assets (JavaScript, CSS, Images).
+    $ wget --recursive --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains www.example.com --no-parent www.example.com
+
+    // Flags explanation:
+    - --recursive \ # Download the whole site.
+    - --page-requisites \ # Get all assets/elements (CSS/JS/images).
+    - --adjust-extension \ # Save files with .html on the end.
+    - --span-hosts \ # Include necessary assets from offsite as well.
+    - --convert-links \ # Update links to still work in the static version.
+    - --restrict-file-names=windows \ # Modify filenames to work in Windows as well.
+    - --domains yoursite.com \ # Do not follow links outside this domain.
+    - --no-parent \ # Don't follow links outside the directory you pass in.
+    - www.example.com/whatever/path # The URL to download
+```
